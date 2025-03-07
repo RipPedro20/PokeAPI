@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="shortcut icon" href="img/Pokemon_Logo-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+            <h1>CATÁLOGO DE POKÉMONS</h1>
+        </div>
+        <div id="catal">
+            <select id="sel">
+                <option value="0" selected disabled>Selecione uma opção</option>
+                <option value="5">5 pokemons</option>
+                <option value="10">10 pokemons</option>
+                <option value="15">15 pokemons</option>
+                <option value="1025">Todos os pokemons</option>
+            </select>
+            <button id="carr" onclick="chgValor()">Carregar dados</button>
+        </div>
+    </header>
+    <main>
+        <div id="content"></div>
+    </main>
+</body>
+</html>
